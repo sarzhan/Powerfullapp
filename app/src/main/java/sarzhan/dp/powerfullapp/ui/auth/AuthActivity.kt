@@ -113,4 +113,8 @@ class AuthActivity : BaseActivity(),
             progress_bar.visibility = View.GONE
         }
     }
+
+    override fun expandAppBar() {
+        // ignore
+    }
 }
